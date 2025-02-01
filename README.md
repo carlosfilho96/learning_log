@@ -6,7 +6,7 @@
 ## Ativar ambiente virtual
 ```.\ll_env\Scripts\activate```
 
-## Instalação do Django no ambiente virtual```
+## Instalação do Django no ambiente virtual
 ```pip install Django```
 
 ## Atualização do pip
@@ -20,3 +20,9 @@
 
 ## Executar projeto
 ```python .\manage.py runserver```
+
+## Criar um aplicativo para o projeto
+```python .\manage.py startapp learning_logs```
+
+## Criar novas migrations para o aplicativo adicionado
+```python .\manage.py makemigrations learning_apps```

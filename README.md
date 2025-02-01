@@ -25,4 +25,4 @@
 ```python .\manage.py startapp learning_logs```
 
 ## Criar novas migrations para o aplicativo adicionado
-```python .\manage.py makemigrations learning_apps```
+```python .\manage.py makemigrations learning_logs```
